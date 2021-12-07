@@ -14,5 +14,10 @@ NAME RANDOMISED
 First Name: """+f_name+"""
 Last Name: """+l_name+"""
 ================================""")
+        repeat = input('\nRANDOMISE ANOTHER NAME? (YES/NO)\n')
+        if repeat.lower() == 'yes':
+            getName(names, surnames)
+        else:
+            exit()
 
 getName(names, surnames)
