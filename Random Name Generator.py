@@ -18,6 +18,7 @@ Last Name: """+l_name+"""
         if repeat.lower() == 'yes':
             getName(names, surnames)
         else:
+            print('\nAPPLICATION CLOSED')
             exit()
 
 getName(names, surnames)
